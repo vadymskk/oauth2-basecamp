@@ -1,0 +1,38 @@
+{
+    "name": "worksection/oauth2-basecamp",
+    "description": "Basecamp OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "league/oauth2-client": "^2.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.9",
+        "orchestra/testbench": "^3.4",
+        "phpunit/phpunit": "^5.0",
+        "illuminate/support": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Hagel",
+            "email": "joshhagel@linchpinstudios.com",
+            "role": "Author"
+        },
+        {
+            "name": "Vadym Dorokh",
+            "email": "vadymski@gmail.com",
+            "role": "Distributor"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Worksection\\BasecampAuth\\": "./src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Worksection\\BasecampAuth\\Test\\": "./tests/src/"
+        }
+    }
+}
